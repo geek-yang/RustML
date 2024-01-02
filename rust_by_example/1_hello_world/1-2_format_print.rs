@@ -1,3 +1,5 @@
+// https://doc.rust-lang.org/rust-by-example/hello/print.html
+
 fn main() {
     /*
     format!: write formatted text to String
@@ -9,4 +11,7 @@ fn main() {
 
     // Positional arguments can be used.
     println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
+
+    // You can pad numbers with extra zeroes,
+    println!("{number:0>5}", number=1); // 00001
 }

@@ -1,3 +1,5 @@
+// https://doc.rust-lang.org/rust-by-example/hello/comment.html
+
 fn main() {
     // single line comment
     /*
